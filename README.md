@@ -15,6 +15,7 @@ The Residual Network implemented in `model48.py` achieved **99.02%** accuracy as
 ```
 python main48_cuda.py --data='<folder-with-data-zips>' --epochs=20 --batch-size=64 --lr=0.01 --wd=0.8 --momentum=0.9
 ```
+(The code will unzip the dataset for you and create train/validation/test folders)
 
 3. The code saves a checkpoint of the model after each training epoch as `model_##.pth` and runs it through the validation set, where you can see the validation accuracy.
 
