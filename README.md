@@ -40,7 +40,7 @@ plt.show()
 
 Which will produce a graph like this:
 
-![resnet training validation loss](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![resnet training validation loss](train_val_loss.png)
 
 
 #### Generating Predictions:
