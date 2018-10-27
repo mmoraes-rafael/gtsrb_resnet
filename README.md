@@ -20,7 +20,7 @@ python main48_cuda.py --data='<folder-with-data-zips>' --epochs=20 --batch-size=
 3. The code saves a checkpoint of the model after each training epoch as `model_##.pth` and runs it through the validation set, where you can see the validation accuracy. Also, it saves the training and validation losses per epoch in the file `losses.p`, to visualize it, run the following code:
 (Please make sure you have Matplotlib installed)
 
-```
+```python
 import pickle
 import matplotlib.pyplot as plt
 
