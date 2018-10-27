@@ -1,6 +1,6 @@
 # German Traffic Sign Recognition Challenge using ResNets
 
-This repository contains a simple, light and high accuracy model for the German Traffic Sign Recognition Benchmark (GTSRB) dataset. This model was designed and trained for the [NYU's Fall 2018 Computer Vision course competition in Kaggle](https://www.kaggle.com/c/nyu-cv-fall-2018). All training was done using GPUs in NYU's Prince cluster.
+This repository contains a simple, light and high accuracy model for the German Traffic Sign Recognition Benchmark ([GTSRB](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)) dataset. This model was designed and trained for the [NYU's Fall 2018 Computer Vision course competition in Kaggle](https://www.kaggle.com/c/nyu-cv-fall-2018). All training was done using GPUs in NYU's Prince cluster.
 
 The baseline code for training and producing predictions was obtained [here](https://github.com/soumith/traffic-sign-detection-homework) and modified in this repository.
 
