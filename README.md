@@ -46,7 +46,7 @@ Which will produce a graph like this:
 1. After selecting the saved checkpoint (e.g. `model_16.pth`) that you want to evaluate in the test set, run the following command:
 
 ```
-python evaluate48_cuda.py --data='<folder-with-data-zips>' --model=<chosen-model.pth>
+python evaluate48_cuda.py --data='<folder-with-data-zips>' --model='<chosen-model.pth>'
 ```
 
 2. This will produce the file `gtsrb_kaggle.csv`, which contains the predictions of your model.
