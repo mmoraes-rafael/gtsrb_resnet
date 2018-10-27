@@ -23,7 +23,7 @@ python main48_cuda.py --data='<folder-with-data-zips>' --epochs=20 --batch-size=
 import pickle
 import matplotlib.pyplot as plt
 
-losses = pickle.load(open('dense_6-12-20-12_losses.p', 'rb'))
+losses = pickle.load(open('losses.p', 'rb'))
 
 epochs = [e[0] for e in losses]
 training_loss = [e[1] for e in losses]
